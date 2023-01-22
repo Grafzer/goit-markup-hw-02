@@ -36,7 +36,27 @@ button {
 	border-radius: 4px;
 }
 
-.top_left {
+.button-first {
+width: 121px; height: 38px; left: 510px; top: 174px
+}
+
+.button-second {
+width: 93px; height: 38px; left: 639px; top: 174px
+}
+
+.button-third {
+width: 114px; height: 38px; left: 740px; top: 174px
+}
+
+.button-fourth {
+width: 91px; height: 38px; left: 862px; top: 174px
+}
+
+.button-fifth {
+width: 121px; height: 38px; left: 961px; top: 174px
+}
+
+.top-left {
 	box-sizing: border-box;
 	position: absolute;
 	width: 370px;
@@ -45,7 +65,7 @@ button {
 	top: 262px;
 }
 
-.top_center {
+.top-center {
 	box-sizing: border-box;
 	position: absolute;
 	width: 370px;
@@ -54,7 +74,7 @@ button {
 	top: 262px;
 }
 
-.top_right {
+.top-right {
 	box-sizing: border-box;
 	position: absolute;
 	width: 370px;
@@ -63,7 +83,7 @@ button {
 	top: 262px;
 }
 
-.center_left {
+.center-left {
 	box-sizing: border-box;
 	position: absolute;
 	width: 370px;
@@ -72,7 +92,7 @@ button {
 	top: 696px;
 }
 
-.center {
+.center-center {
 	box-sizing: border-box;
 	position: absolute;
 	width: 370px;
@@ -81,7 +101,7 @@ button {
 	top: 696px;
 }
 
-.center_right {
+.center-right {
 	box-sizing: border-box;
 	position: absolute;
 	width: 370px;
@@ -90,7 +110,7 @@ button {
 	top: 696px;
 }
 
-.bottom_left {
+.bottom-left {
 	box-sizing: border-box;
 	position: absolute;
 	width: 370px;
@@ -99,7 +119,7 @@ button {
 	top: 1130px;
 }
 
-.bottom_center {
+.bottom-center {
 	box-sizing: border-box;
 	position: absolute;
 	width: 370px;
@@ -108,7 +128,7 @@ button {
 	top: 1130px;
 }
 
-.bottom_right {
+.bottom-right {
 	box-sizing: border-box;
 	position: absolute;
 	width: 370px;
