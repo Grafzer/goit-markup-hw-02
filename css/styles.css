@@ -1,0 +1,15 @@
+header {
+	position: absolute;
+	width: 1600px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+}
+
+footer {
+	position: absolute;
+	width: 1600px;
+	height: 252px;
+	left: 0px;
+	top: 1628px;
+}
