@@ -13,3 +13,7 @@ footer {
 	left: 0px;
 	top: 1628px;
 }
+
+ul {
+	list-style-type: none;
+}
