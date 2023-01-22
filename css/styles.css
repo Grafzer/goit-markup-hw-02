@@ -1,3 +1,40 @@
+body {
+	font-family: "Raleway", sans-serif;
+	font-family: "Roboto", sans-serif;
+}
+
+h1 {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #ffffff;
+	position: absolute;
+	width: 572px;
+	height: 54px;
+	left: 510px;
+	top: 174px;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 36px;
+	letter-spacing: 0.06em;
+	color: #212121;
+}
+
+p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+
 header {
 	position: absolute;
 	width: 1600px;
