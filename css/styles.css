@@ -1,6 +1,10 @@
 body {
 	font-family: "Raleway", sans-serif;
 	font-family: "Roboto", sans-serif;
+	position: relative;
+	width: 1600px;
+	height: 1880px;
+	background: #ffffff;
 }
 
 h1 {
@@ -17,6 +21,19 @@ h1 {
 	height: 54px;
 	left: 510px;
 	top: 174px;
+}
+
+button {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+	background: #f5f4fa;
+	border-radius: 4px;
 }
 
 h2 {
