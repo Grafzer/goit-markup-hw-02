@@ -23,6 +23,10 @@ body {
 	top: 174px;
 }
 
+ul {
+	list-style-type: none;
+}
+
 button {
 	font-family: "Roboto";
 	font-style: normal;
