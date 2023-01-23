@@ -4,14 +4,15 @@ body {
 	width: 1600px;
 	height: 1880px;
 	background: #ffffff;
+	color: #212121;
 }
 
-h1 {
+.menu {
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 26px;
+	line-height: 1.62;
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: #ffffff;
@@ -36,23 +37,38 @@ button {
 }
 
 .button-first {
-width: 121px; height: 38px; left: 510px; top: 174px
+	width: 121px;
+	height: 38px;
+	left: 510px;
+	top: 174px;
 }
 
 .button-second {
-width: 93px; height: 38px; left: 639px; top: 174px
+	width: 93px;
+	height: 38px;
+	left: 639px;
+	top: 174px;
 }
 
 .button-third {
-width: 114px; height: 38px; left: 740px; top: 174px
+	width: 114px;
+	height: 38px;
+	left: 740px;
+	top: 174px;
 }
 
 .button-fourth {
-width: 91px; height: 38px; left: 862px; top: 174px
+	width: 91px;
+	height: 38px;
+	left: 862px;
+	top: 174px;
 }
 
 .button-fifth {
-width: 121px; height: 38px; left: 961px; top: 174px
+	width: 121px;
+	height: 38px;
+	left: 961px;
+	top: 174px;
 }
 
 .top-left {
