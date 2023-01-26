@@ -155,7 +155,7 @@ button {
 	top: 1130px;
 }
 
-h2 {
+.tile-header {
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 36px;
@@ -170,7 +170,7 @@ h2 {
 	color: #757575;
 }
 
-.tile-header {
+header {
 	position: absolute;
 	width: 1600px;
 	height: 80px;
@@ -185,3 +185,4 @@ footer {
 	left: 0px;
 	top: 1628px;
 }
+
