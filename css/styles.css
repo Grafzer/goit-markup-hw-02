@@ -1,27 +1,25 @@
 body {
 	font-family: "Roboto" "Raleway", sans-serif;
 	position: relative;
+	font-size: 500;
 	width: 1600px;
 	height: 1880px;
-	background: #ffffff;
-	color: #212121;
+	background:#FFFFFF;
+	text-decoration-color: #212121;
 }
 
 :root {
 	background-color: #e5e5e5;
 	text-decoration-color: #212121;
 	text-decoration-color: #757575;
+	text-decoration-color: #2196f3;
 }
 
 .menu {
-	font-family: "Roboto";
-	font-style: normal;
-	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: #ffffff;
 	position: absolute;
 	width: 572px;
 	height: 54px;
@@ -38,11 +36,12 @@ button {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 26px;
+	line-height: 1.62;
 	text-align: center;
 	letter-spacing: 0.03em;
 	background: #f5f4fa;
 	border-radius: 4px;
+	cursor: pointer;
 }
 
 .button-first {
