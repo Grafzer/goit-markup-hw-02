@@ -1,18 +1,67 @@
-body {
-	font-family: "Roboto" "Raleway", sans-serif;
-	position: relative;
-	font-size: 500;
-	width: 1600px;
-	height: 1880px;
-	background:#FFFFFF;
-	text-decoration-color: #212121;
-}
-
 :root {
 	background-color: #e5e5e5;
 	text-decoration-color: #212121;
 	text-decoration-color: #757575;
 	text-decoration-color: #2196f3;
+}
+
+.logo {
+	position: absolute;
+	width: 145px;
+	height: 31px;
+	left: 215px;
+	top: 24px;
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	color: #2196f3;
+}
+
+.navigation1 {
+	position: absolute;
+	width: 53px;
+	height: 16px;
+	left: 453px;
+	top: 32px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+}
+
+.navigation2 {
+	position: absolute;
+	width: 58px;
+	height: 16px;
+	left: 552px;
+	top: 32px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+}
+
+.navigation3 {
+	position: absolute;
+	width: 58px;
+	height: 16px;
+	left: 656px;
+	top: 32px;
+
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
 }
 
 .menu {
@@ -189,4 +238,13 @@ footer {
 	height: 252px;
 	left: 0px;
 	top: 1628px;
+}
+
+body {
+	font-family: "Roboto" "Raleway", sans-serif;
+	position: relative;
+	width: 1600px;
+	height: 1880px;
+	background: #ffffff;
+	text-decoration-color: #212121;
 }
