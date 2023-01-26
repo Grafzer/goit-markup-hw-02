@@ -266,17 +266,10 @@ header {
 	top: 0px;
 }
 
-footer {
-	position: absolute;
-	width: 1600px;
-	height: 252px;
-	left: 0px;
-	top: 1628px;
 
-}
 
 .localization-address {
-
+	position: absolute;
 	width: 247px;
 	height: 21px;
 	left: 215px;
@@ -291,7 +284,7 @@ footer {
 }
 
 .contact-mail-footer {
-
+	position: absolute;
 	width: 231px;
 	height: 21px;
 	left: 215px;
@@ -307,7 +300,7 @@ footer {
 }
 
 .contact-phone-footer {
-
+	position: absolute;
 	width: 231px;
 	height: 21px;
 	left: 215px;
