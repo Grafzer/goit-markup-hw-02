@@ -7,6 +7,12 @@ body {
 	color: #212121;
 }
 
+:root {
+	background-color: #e5e5e5;
+	text-decoration-color: #212121;
+	text-decoration-color: #757575;
+}
+
 .menu {
 	font-family: "Roboto";
 	font-style: normal;
@@ -185,4 +191,3 @@ footer {
 	left: 0px;
 	top: 1628px;
 }
-
