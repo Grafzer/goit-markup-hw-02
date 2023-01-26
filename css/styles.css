@@ -5,13 +5,15 @@ body {
 	height: 1880px;
 	background: #ffffff;
 	text-decoration-color: #212121;
+	background-color: #e5e5e5;
 }
 
 :root {
-	background-color: #e5e5e5;
-	text-decoration-color: #212121;
-	text-decoration-color: #757575;
-	text-decoration-color: #2196f3;
+
+	--background-color: #e5e5e5;
+	--main-color: #212121;
+	--secondary-color: #757575;
+
 }
 
 .logo-header {
@@ -338,5 +340,3 @@ header {
 	letter-spacing: 0.03em;
 	text-decoration: none;
 }
-
-
