@@ -5,7 +5,7 @@
 	text-decoration-color: #2196f3;
 }
 
-.logo {
+.logo-header {
 	position: absolute;
 	width: 145px;
 	height: 31px;
@@ -266,7 +266,22 @@ header {
 	top: 0px;
 }
 
+.logo-footer {
+	position: absolute;
+	width: 145px;
+	height: 31px;
+	left: 215px;
+	top: 1688px;
 
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
+
+	letter-spacing: 0.03em;
+	color: #2196f3;
+}
 
 .localization-address {
 	position: absolute;
@@ -280,7 +295,6 @@ header {
 	font-size: 14px;
 	line-height: 24px;
 	letter-spacing: 0.03em;
-
 }
 
 .contact-mail-footer {
@@ -296,7 +310,6 @@ header {
 	line-height: 24px;
 	letter-spacing: 0.03em;
 	text-decoration-line: underline;
-
 }
 
 .contact-phone-footer {
@@ -311,7 +324,6 @@ header {
 	font-size: 14px;
 	line-height: 24px;
 	letter-spacing: 0.03em;
-
 }
 
 body {
