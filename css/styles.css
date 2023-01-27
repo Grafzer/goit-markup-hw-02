@@ -1,20 +1,21 @@
 body {
-	font-family: "Roboto" "Raleway", sans-serif;
-	position: relative;
+	font-family: "Roboto"; 
+	font-family: "Raleway"; 
+	font-family: sans-serif;
 	width: 1600px;
 	height: 1880px;
 	background: #ffffff;
 	text-decoration-color: #212121;
-	background-color: #e5e5e5;
 }
 
 :root {
-
 	--background-color: #e5e5e5;
 	--main-color: #212121;
 	--secondary-color: #757575;
-
+	--logo-color: #2196f3;
 }
+
+
 
 .logo-header {
 	position: absolute;
@@ -28,7 +29,8 @@ body {
 	font-size: 26px;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
-	color: #2196f3;
+	
+	color: var(--logo-color);
 	text-decoration: none;
 }
 
@@ -39,12 +41,11 @@ body {
 	left: 453px;
 	top: 32px;
 	text-decoration: none;
-
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 16px;
+	line-height: 1.14;
 	letter-spacing: 0.02em;
 }
 
@@ -59,7 +60,7 @@ body {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 16px;
+	line-height: 1.14;
 	letter-spacing: 0.02em;
 }
 
@@ -73,7 +74,7 @@ body {
 	font-family: "Roboto";
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 16px;
+	line-height: 1.14;
 	letter-spacing: 0.02em;
 }
 
@@ -88,9 +89,8 @@ body {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 16px;
+	line-height: 1.14;
 	letter-spacing: 0.02em;
-
 	color: #757575;
 }
 
@@ -105,13 +105,14 @@ body {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 16px;
+	line-height: 1.14;
 	letter-spacing: 0.02em;
 
 	color: #757575;
 }
 
 .menu {
+	font-family: "Roboto";
 	font-size: 16px;
 	line-height: 1.62;
 	text-align: center;
@@ -130,7 +131,7 @@ ul {
 button {
 	font-family: "Roboto";
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.62;
 	text-align: center;
@@ -259,14 +260,14 @@ button {
 .tile-header {
 	font-weight: 700;
 	font-size: 18px;
-	line-height: 36px;
+	line-height: 2;
 	letter-spacing: 0.06em;
 }
 
 .tile-subheader {
 	font-weight: 400;
 	font-size: 16px;
-	line-height: 30px;
+	line-height: 1.87;
 	letter-spacing: 0.03em;
 	color: #757575;
 }
@@ -290,7 +291,7 @@ header {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
-	line-height: 31px;
+	line-height: 1.19;
 	text-decoration: none;
 	letter-spacing: 0.03em;
 	color: #2196f3;
@@ -306,7 +307,7 @@ header {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 1.71;
 	letter-spacing: 0.03em;
 	text-decoration: none;
 }
@@ -321,7 +322,7 @@ header {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 1.71;
 	letter-spacing: 0.03em;
 	text-decoration: none;
 }
@@ -336,7 +337,7 @@ header {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 1.71;
 	letter-spacing: 0.03em;
 	text-decoration: none;
 }
