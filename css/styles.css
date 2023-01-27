@@ -1,21 +1,18 @@
-body {
-	font-family: "Roboto"; 
-	font-family: "Raleway"; 
-	font-family: sans-serif;
-	width: 1600px;
-	height: 1880px;
-	background: #ffffff;
-	text-decoration-color: #212121;
-}
-
 :root {
 	--background-color: #e5e5e5;
 	--main-color: #212121;
 	--secondary-color: #757575;
 	--logo-color: #2196f3;
+	--button-background-color: #f5f4fa;
 }
 
-
+body {
+	font-family: "Roboto", sans-serif;
+	width: 1600px;
+	height: 1880px;
+	background: #ffffff;
+	text-decoration-color: #212121;
+}
 
 .logo-header {
 	position: absolute;
@@ -29,9 +26,13 @@ body {
 	font-size: 26px;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
-	
 	color: var(--logo-color);
 	text-decoration: none;
+}
+
+.navigation:hover,
+.navigation:focus {
+	color: var(--logo-color);
 }
 
 .navigation1 {
@@ -91,7 +92,7 @@ body {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: #757575;
+	color: var(--secondary-color);
 }
 
 .contact-phone-header {
@@ -107,8 +108,7 @@ body {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-
-	color: #757575;
+	color: var(--secondary-color);
 }
 
 .menu {
@@ -136,7 +136,7 @@ button {
 	line-height: 1.62;
 	text-align: center;
 	letter-spacing: 0.03em;
-	background: #f5f4fa;
+	background: var(--button-background-color);
 	border-radius: 4px;
 	cursor: pointer;
 }
@@ -269,7 +269,7 @@ button {
 	font-size: 16px;
 	line-height: 1.87;
 	letter-spacing: 0.03em;
-	color: #757575;
+	color: var(--secondary-color);
 }
 
 header {
@@ -294,7 +294,7 @@ header {
 	line-height: 1.19;
 	text-decoration: none;
 	letter-spacing: 0.03em;
-	color: #2196f3;
+	color: var(--logo-color);
 }
 
 .localization-address {
@@ -339,5 +339,14 @@ header {
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
+	text-decoration: none;
+}
+
+.footer:hover,
+.footer:focus {
+	color: var(--logo-color);
+}
+
+.footer {
 	text-decoration: none;
 }
