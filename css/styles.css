@@ -126,10 +126,6 @@ button:focus-visible {
 	color: var(--secondary-color);
 }
 
-footer {
-	background-color: var(--footer-color);
-}
-
 .logo-footer {
 	font-family: "Raleway";
 	font-style: normal;
@@ -165,18 +161,26 @@ footer {
 	color: var(--secondary-color);
 }
 
-.contact-phone-footer.contact-phone-mail:outline {
-	color: yellow;
-}
-
-a {
+a:link {
+	color: none;
+	background-color: transparent;
 	text-decoration: none;
 }
 
 a:visited {
+	color: none;
+	background-color: transparent;
 	text-decoration: none;
 }
 
-footer:visited {
+a:hover {
 	color: none;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:active {
+	color: none;
+	background-color: transparent;
+	text-decoration: none;
 }
