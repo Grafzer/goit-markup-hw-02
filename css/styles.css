@@ -12,7 +12,7 @@ body {
 	font-size: 14px;
 	letter-spacing: 0.03em;
 	background: #ffffff;
-	color: #212121;
+	color: var(--main-color);
 }
 
 .logo-header {
@@ -137,7 +137,6 @@ button:focus-visible {
 
 .localization-address {
 	font-weight: 400;
-
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	text-decoration: none;
@@ -145,7 +144,6 @@ button:focus-visible {
 
 .contact-mail-footer {
 	font-weight: 400;
-
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	text-decoration: none;
@@ -158,8 +156,8 @@ button:focus-visible {
 	text-decoration: none;
 }
 
-.footer:hover,
-.footer:focus {
+footer:hover,
+footer:focus-visible {
 	color: var(--logo-color);
 }
 
