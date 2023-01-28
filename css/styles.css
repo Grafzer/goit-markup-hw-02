@@ -5,6 +5,7 @@
 	--logo-color: #2196f3;
 	--button-background-color: #f5f4fa;
 	--main-font: Roboto, sans-serif;
+	--footer-color: #2f303a;
 }
 
 body {
@@ -125,6 +126,10 @@ button:focus-visible {
 	color: var(--secondary-color);
 }
 
+footer {
+	background-color: var(--footer-color);
+}
+
 .logo-footer {
 	font-family: "Raleway";
 	font-style: normal;
@@ -141,6 +146,7 @@ button:focus-visible {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	text-decoration: none;
+	color: #ffffff;
 }
 
 .contact-mail-footer {
@@ -148,6 +154,7 @@ button:focus-visible {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	text-decoration: none;
+	color: var(--secondary-color);
 }
 
 .contact-phone-footer {
@@ -155,13 +162,21 @@ button:focus-visible {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	text-decoration: none;
+	color: var(--secondary-color);
 }
 
-footer:hover,
-footer:focus-visible {
-	color: var(--logo-color);
+.contact-phone-footer.contact-phone-mail:outline {
+	color: yellow;
 }
 
-footer {
+a {
 	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+footer:visited {
+	color: none;
 }
