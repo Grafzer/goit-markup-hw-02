@@ -81,7 +81,8 @@ button {
 
 button:hover,
 button:focus-visible {
-	color: var(--logo-color);
+	color: #ffffff;
+	background-color: var(--logo-color);
 }
 
 .button-first {
@@ -161,6 +162,6 @@ footer:focus-visible {
 	color: var(--logo-color);
 }
 
-.footer {
+footer {
 	text-decoration: none;
 }
