@@ -75,6 +75,13 @@ button {
 	font-size: 16px;
 	line-height: 1.62;
 	cursor: pointer;
+	color: var(--main-color);
+	background-color: var(--button-background-color);
+}
+
+button:hover,
+button:focus-visible {
+	color: var(--logo-color);
 }
 
 .button-first {
