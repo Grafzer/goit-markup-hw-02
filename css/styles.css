@@ -6,7 +6,7 @@
 	--button-background-color: #f5f4fa;
 	--main-font: Roboto, sans-serif;
 	--line-color: #ececec;
-	--footer-text-color: rgba(255, 255,255, 0.6);
+	--footer-text-color: rgba(255, 255, 255, 0.6);
 	--icon-color: #afb1b8;
 	--footer-color: #2f303a;
 	--secondary-background-color: #ffffff;
@@ -17,7 +17,7 @@ body {
 	color: var(--main-color);
 	font-size: 14px;
 	letter-spacing: 0.03em;
-	background: var(--secondary-background-color);
+	background-color: var(--secondary-background-color);
 }
 
 .logo-header {
@@ -30,25 +30,20 @@ body {
 	text-decoration: none;
 }
 
-.navigation1 {
-	text-decoration: none;
-	font-weight: 500;
-	line-height: 1.14;
-	letter-spacing: 0.02em;
+.logo-black {
+	color: var(--main-color);
 }
 
-.navigation2 {
-	text-decoration: none;
-	font-weight: 500;
-	line-height: 1.14;
-	letter-spacing: 0.02em;
+.navigation-link:hover {
+	color: var(--logo-color);
 }
 
-.navigation3 {
+.navigation-link {
 	text-decoration: none;
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+	color: var(--main-color);
 }
 
 .contact-mail-header {
@@ -66,7 +61,7 @@ body {
 }
 
 hr {
-	border: 1px solid #ECECEC;
+	border: 1px solid #ececec;
 }
 
 .menu {
@@ -175,10 +170,6 @@ a:hover {
 
 a:focus {
 	color: var(--logo-color);
-}
-
-a:visited {
-	color: transparent;
 }
 
 a:active {
