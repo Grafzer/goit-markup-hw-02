@@ -78,40 +78,16 @@ button {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.62;
+	letter-spacing: 0.03em;
 	cursor: pointer;
 	color: var(--main-color);
 	background-color: var(--button-background-color);
 }
 
 button:hover,
-button:focus-visible {
+button:focus {
 	color: var(--secondary-background-color);
 	background-color: var(--logo-color);
-}
-
-.button-first {
-	width: 121px;
-	height: 38px;
-}
-
-.button-second {
-	width: 93px;
-	height: 38px;
-}
-
-.button-third {
-	width: 114px;
-	height: 38px;
-}
-
-.button-fourth {
-	width: 91px;
-	height: 38px;
-}
-
-.button-fifth {
-	width: 121px;
-	height: 38px;
 }
 
 .tile-header {
@@ -174,6 +150,14 @@ a:focus {
 
 a:active {
 	color: transparent;
+}
+
+.footer {
+	background-color: var(--footer-color);
+}
+
+.address {
+	font-style: normal;
 }
 
 .visually-hidden {
