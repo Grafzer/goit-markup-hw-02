@@ -61,7 +61,22 @@ body {
 }
 
 hr {
-	border: 1px solid #ececec;
+	border: 1px solid var(--line-color);
+}
+
+.banner-text {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--secondary-background-color);
+}
+
+.banner {
+	background-color: var(--footer-color);
 }
 
 .menu {
