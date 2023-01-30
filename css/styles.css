@@ -172,3 +172,13 @@ a:active {
 	clip: rect(0 0 0 0);
 	overflow: hidden;
 }
+
+.contact-mail-footer:hover,
+.contact-mail-footer:focus {
+	color: var(--logo-color);
+}
+
+.contact-phone-footer:hover,
+.contact-phone-footer:focus {
+	color: var(--logo-color);
+}
